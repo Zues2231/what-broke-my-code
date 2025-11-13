@@ -49,16 +49,9 @@ Suggestion: revert chalk to ^4.1.2 or fix import in helpers.js
 
 ## 🚀 Installation
 
-### Using pip (Python)
+### Using npm
 ```bash
-pip install what-broke-my-code
-```
-
-### Or clone manually
-```bash
-git clone https://github.com/yourusername/what-broke-my-code.git
-cd what-broke-my-code
-python setup.py install
+npm install -g @thelonewolf39/what-broke-my-code --registry=https://npm.pkg.github.com
 ```
 
 ---
